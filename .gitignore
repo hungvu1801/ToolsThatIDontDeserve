@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+*/.venv/*
+*/build/*
+*/dist/*
+*/test.py
+*/Img/*
+*/Tmp/*
