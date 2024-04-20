@@ -403,3 +403,5 @@ FodyWeavers.xsd
 */test.py
 */Img/*
 */Tmp/*
+*/*.zip
+*/Test/*
