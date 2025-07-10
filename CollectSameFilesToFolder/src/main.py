@@ -17,7 +17,7 @@ def collect_folder(folder_dir):
 
 	for file_name in file_list:
 		# file_name_base = os.path.splitext(file_name)[0]
-		folder_name = re.match('^([A-Z0-9]*)', file_name)
+		folder_name = re.match(r'^([A-Z0-9]*_\w{1})', file_name)
 		if folder_name:
 			folder_name = folder_name.group()
 		else: continue

@@ -24,7 +24,7 @@ def main():
     file_groups = {}
     list_files = os.listdir(folder_name)
     for file_name in list_files:
-        zip_folder_name = re.match('^([A-Z0-9]*)', file_name)
+        zip_folder_name = re.match(r'^([A-Z0-9]*_\w{1})', file_name)
         if zip_folder_name:
             zip_folder_name = zip_folder_name.group()
         else: continue

@@ -407,3 +407,5 @@ FodyWeavers.xsd
 */Test/*
 */__pycache__/*
 */*.spec
+
+*.exe
