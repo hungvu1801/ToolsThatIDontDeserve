@@ -1,5 +1,6 @@
 from src.menu import clear_console, display_menu, run_command
 
+
 def main() -> None:
     while True:
         clear_console()
@@ -9,5 +10,6 @@ def main() -> None:
         if not res:
             break
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
